@@ -14,9 +14,6 @@ const Home = () => {
         <li>
           <Link to="/navigation">Navigation</Link>
         </li>
-        <li>
-          <Link to="/">Hello</Link>
-        </li>
       </ul>
     </div>
   );
