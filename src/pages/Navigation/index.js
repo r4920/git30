@@ -2,6 +2,7 @@ import React from "react";
 
 import { Column } from "components/Column";
 import { Row } from "components/Row";
+import { Button } from "components/Button";
 import { Text } from "components/Text";
 import { List } from "components/List";
 
@@ -54,15 +55,15 @@ const NavigationPage = () => {
               compRight={0}
               compType="View"
             ></div>
-            <Text
-              className="common-pointer 2xl:mt-[67px] 2xl:text-fs56 3xl:mt-[81px] 3xl:text-fs67 font-bold lg:mt-[52px] lg:text-fs43 mt-[48px] text-fs40 text-gray_900 text-left xl:mt-[60px] xl:text-fs50"
+            <Button
+              className="common-pointer 2xl:mt-[67px] 2xl:text-fs56 3xl:mt-[81px] 3xl:text-fs67 bg-transparent border-bw font-bold lg:mt-[52px] lg:text-fs43 mt-[48px] text-fs40 text-gray_900 text-left w-[12%] xl:mt-[60px] xl:text-fs50"
               compId="1930:26473"
               comWidth={163}
               compLeft={0}
               compRight={0}
-              compType="Text"
+              compType="Button"
               onClick={handleNavigate2}
-            >{`General`}</Text>
+            >{`General`}</Button>
             <Text
               className="2xl:mb-[11px] 2xl:ml-[230px] 2xl:mt-[94px] 2xl:text-fs25 3xl:mb-[13px] 3xl:ml-[276px] 3xl:mt-[113px] 3xl:text-fs30 font-normal lg:ml-[179px] lg:mt-[73px] lg:text-fs19 mb-[8px] ml-[164px] mt-[67px] text-fs18 text-gray_900 text-left underline xl:mb-[10px] xl:ml-[205px] xl:mt-[83px] xl:text-fs22"
               compId="1930:26475"

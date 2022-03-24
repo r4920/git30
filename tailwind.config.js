@@ -26,6 +26,7 @@ module.exports = {
         fs56: "56px",
         fs67: "67px",
       },
+      borderWidth: { bw: "none" },
     },
   },
   plugins: [require("@tailwindcss/forms")],
